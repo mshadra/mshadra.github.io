@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+}
+
+ table,
+      th,td {
+        padding: 10px;
+        border: 1px solid #00000063;
+        border-collapse: collapse;
+      }
+
+.banner h2{
+	background-color: purple;
+	color:	#ffffff;
+	z-index: 1;
+	padding: 20px 20px;
+	border: 8px groove 	#ffffff;
+	text-align: center;
+}
+
+th,td {
+  padding: 15px;
+  font-size: 14px;
+}
+
+th {
+	background-color: white;
+	color: lemonchiffon;
+	text-shadow: 1px 1px 2px black;
+}
+
+td {
+	background-color: #000000
+	color: whitesmoke;
+	text-align: center;
+	padding: 20px;
+}
+
+p {
+	font-size: 16px;
+	text-indent: 60px;
+	font-family: Courier New;
+	text-align: justify;
+	padding: 20px;
+	color: black;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+
+}
+
+.photo {
+	width: 220px;
+}
+
+h1 {
+	font-family: 'Share', papyrus;
+    font-size: 35px;
+    text-shadow: 5px 5px 0px #7bffaa, 8px 8px 0px #6c5257;
+    color: #59faffdd0fff;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: #ff8eecd9;
+	padding: 15px;
+}
+
+h2 {
+	font-family: Garamond;
+    font-size: 26px;
+    text-shadow: 1px 2px 5px white;
+    color: teal;
+    text-align: center;
+}
+
+body {
+	background-color: #7bffaa;
+	}
+footer{
+	text-align: center;
+}
+
+nav {
+	display: block;
+	background-color: #f499ff;
+	overflow: hidden;
+	text-shadow: 1px 1px 1px #000000c2;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+
+nav a {
+	float: left;
+	color: #7bffaa;
+	padding: 15px 20px;
+	text-decoration: none;
+	border: 0.5px solid #7bffaa;
+	border-radius: 2px;
+}
+
+nav a:hover {
+	background-color: #7bffaa;
+	color: #68e6ff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+
+button {
+	background-color: #63ffff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+button a{
+	color: white;
+	text-decoration: none;
+}
+
+button a:hover {
+	color: #63ffff;
+}
+
+.container {
+			max-width: 1200px;
+			margin: auto;
+			background-color: #ffa480
+			overflow: auto;
+}
+
+.gallery {
+			margin: 5px;
+			border:1px solid black;
+			float: left;
+			width: 390px;
+		}
+		
+.gallery img {
+		width: 100%;
+		height: auto;
+		display: block;
+}
